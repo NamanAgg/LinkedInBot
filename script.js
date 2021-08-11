@@ -16,7 +16,7 @@ const pass = "";
 let companyName = process.argv.slice(2)[0];
 let jobId = process.argv.slice(2)[1];
 let jobLink = process.argv.slice(2)[2];
-let linkToResume = "";
+let linkToResume = "https://drive.google.com/file/d/1eB4ehjlw9NNVwrKsTnsI7BxXSYw43lEG/view?usp=sharing";
 (async () => {
   const browser = await puppeteer.launch({
       headless:false,
